@@ -1,0 +1,13 @@
+name = "refer-earn-bot"
+main = "src/worker.js"
+compatibility_date = "2024-12-01"
+
+# Your free D1 database
+[[d1_databases]]
+binding = "DB"
+database_name = "referral-db"
+database_id = "PASTE_YOUR_DATABASE_ID_HERE"
+
+# Mini app files (the /public folder)
+[assets]
+directory = "./public"
